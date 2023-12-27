@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Bootstrap 5 Theme - Ceo Coach">
+  <meta name="keywords" content="">
+  <meta name="author" content="Codescandy">
+  <title>Bootstrap 5 Theme - Ceo Coach</title>
+  <link rel="stylesheet" href="@@webRoot/node_modules/magnific-popup/dist/magnific-popup.css">
+  @@include("partials/head.html")
+</head>
+
+<body>
+
+  @@include("partials/navbar.html", { "classList": "navbar-dark navbar-default fixed-top border-3 border-top border-primary" })
+
+
+<div class="pt-10">
+    <div class="container" id="contact-form">
+        <div class="row">
+            <div class="offset-lg-2 col-lg-8 col-md-12 col-12 mb-5">
+                <!-- card -->
+                <div class="card z-1">
+                    <!-- card body -->
+                    <div class="card-body p-5 p-lg-9">
+                        <div class="mb-6 text-center">
+                            <h2 class="mb-3">Contacteaza-ne</h2>
+                            <p>
+                                Afla mai multe despre ce putem face pentru tine.
+                            </p>
+                        </div>
+                        <!-- form -->
+                        <form class="row">
+                            <div class="col-12 col-md-6 mb-3">
+                                <!-- Name input -->
+                                <label for="name" class="form-label">Nume</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name" name="Nume" required="">
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <!-- Email input -->
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required="">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <!-- Phone Number input -->
+                                <label for="phone" class="form-label">Numar de telefon</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Numar de telefon" name="phone">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <!-- Description input -->
+                                <label for="description" class="form-label">Cum te putem ajuta?</label>
+                                <textarea class="form-control" id="description" placeholder="Lasa-ne un mesaj" name="description" rows="4"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">
+                                        Trimite
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@@include("partials/footer.html")
+
+</body>
+
+</html>

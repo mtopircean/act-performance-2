@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Codescandy">
+    <title>Gulp - Get Started with npm gulp</title>
+    <link href="@@webRoot/node_modules/prismjs/themes/prism-okaidia.min.css" rel="stylesheet">
+    @@include("../partials/head.html")
+
+
+</head>
+
+<body>
+
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="docs-main-wrapper">
+        @@include("../partials/doc-navbar.html")
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        @@include("../partials/doc-sidebar.html")
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="docs-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="docs-content">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="doc-section-head mb-5 mt-xl-8" id="intro">
+                                        <h1>Gulp</h1>
+                                        <p class="lead">Learn how to included npm scripts to automate your time-consuming tasks in your development workflow with Gulp toolkit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Simple Badge -->
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="doc-section-head" id="quickstart">
+                                        <h3 class="doc-section-title mb-3">Quick Start</h3>
+                                        <p>Coach uses <a href="https://docs.npmjs.com/misc/scripts" target="_blank">NPM
+                                                scripts </a> for its build system. Our <code class="highlighter-rouge">package.json</code> includes convenient methods for working with the framework, including compiling code, running tests, and more.</p>
+                                        <p>To use our build system and run our documentation locally, you'll need a copy of Coach's source files and Node. Follow these steps and you should be ready to rock:</p>
+                                        <ol>
+                                            <li><a href="https://nodejs.org/en/" target="_blank">Download and install
+                                                    Node.js </a>, which we use to manage our dependencies.</li>
+                                            <li><a href="https://gulpjs.com/docs/en/getting-started/quick-start" target="_blank">Download and install Gulp.js </a>, which we use to manage our dependencies.</li>
+                                            <li>Navigate to the root <code class="highlighter-rouge">/coach-v2.0.0</code> directory and run <code class="highlighter-rouge">npm install</code> to install our local dependencies listed in <code class="highlighter-rouge">package.json</code>.</li>
+                                        </ol>
+                                        <p>When completed, you'll be able to run the various commands provided from the command line.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="mb-5" id="installgulp">
+                                        <h3 class="fw-medium">Installing Gulp.js</h3>
+                                        <p>Please note, first Gulp should be installed globally and for that reason -g command is used.</p>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <pre class="language-markup"><code class="language-markup">npm install gulp-cli -g</code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="mb-5">
+                                        <div class="mt-3 mb-3">
+                                            <h4 class="mb-2">Installing NPM modules </h4>
+                                            <p>First, change the command line path into your project where Coach folder is located. if you have not done this before, you may check the following article to quick start, you may run <code class="highlighter-rouge">package.json</code>                                                file by using the following command:</p>
+                                        </div>
+                                        <div class="mt-4 mb-4">
+                                            <div>
+                                                <div>
+                                                    <pre class="language-markup"><code class="language-markup">npm install</code></pre>
+                                                </div>
+                                            </div>
+                                            <p>If you check the project folder when the command has finished executing, you should see that Gulp has created a <code class="highlighter-rouge">node_modules</code> folder.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="mb-5">
+                                        <div class="mt-3 mb-3">
+                                            <h4 class="mb-2">Run Gulp </h4>
+                                            <p>Compile and watch the SCSS/JS/HTML, use Live Reload to update browsers instantly, start a server, and pop a tab in your default browser. Any changes made to the source files will be compiled as soon as you save
+                                                the file. To try it out run:</p>
+                                        </div>
+                                        <div class="mt-4 mb-4">
+                                            <div>
+                                                <div>
+                                                    <pre class="language-markup"><code class="language-markup">gulp</code></pre>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="mt-4 mb-4">
+                                            <div>
+                                                <p> Generates a <code>/dist</code> directory with all the production files. </p>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <pre class="language-markup"><code class="language-markup">gulp build</code></pre>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 border-start d-none d-xl-block">
+                        <div class="sidebar-nav-fixed">
+                            <ul class="list-unstyled">
+                                <li><a href="#intro" class="active">Introduction</a></li>
+                                <li><a href="#quickstart">Quick Start</a></li>
+                                <li><a href="#installgulp">Install Gulp</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("../partials/doc-footer.html")
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    @@include("../partials/scripts.html")
+    <script src="@@webRoot/node_modules/prismjs/prism.js"></script>
+<script src="@@webRoot/node_modules/prismjs/components/prism-scss.min.js"></script>
+<script src="@@webRoot/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="@@webRoot/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+</html>

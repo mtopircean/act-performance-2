@@ -1,0 +1,19 @@
+.plyr {
+    border-radius: $border-radius-lg;
+    height: 250px;
+
+    &:hover.plyr--video .plyr__controls {
+        display: flex;
+    }
+}
+
+.plyr__poster {
+    background-size: cover;
+}
+
+.plyr--video .plyr__controls {
+    display: none;
+}
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+    display: none;
+}

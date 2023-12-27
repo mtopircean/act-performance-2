@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Codescandy">
+    <title>Filestructure</title>
+    <link href="@@webRoot/node_modules/prismjs/themes/prism-okaidia.min.css" rel="stylesheet">
+    @@include("../partials/head.html")
+
+
+
+</head>
+
+<body>
+
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="docs-main-wrapper">
+        @@include("../partials/doc-navbar.html")
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        @@include("../partials/doc-sidebar.html")
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="docs-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="docs-content">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="doc-section-head mb-5 mt-xl-8" id="intro">
+                                        <h1 class="doc-section-head-title">File Structure</h1>
+                                        <p class="doc-section-head-text">Bootstrap alerts are feedback messages which are displayed after specific actions preceded by the user. Length of the text is not limited.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="docs-example">
+                                <div class="docs-example">
+                                    <ul class="text-gray-700">
+                                        <li>
+                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> dist</strong> - Generated all files
+                                        </li>
+                                        <li> <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> node_modules </strong> - Directory where <code>npm </code>installs dependencies.</li>
+                                        <li>
+                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> src</strong>
+                                            <ul>
+                                                <li>
+                                                    <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> assets</strong>
+                                                    <ul>
+                                                        <li>
+                                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> css</strong> - Compiled CSS
+                                                        </li>
+                                                        <li>
+                                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> fonts</strong> - All fonts
+                                                        </li>
+                                                        <li>
+                                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> images</strong> - Image assets
+                                                        </li>
+                                                        <li>
+                                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> js</strong> - Javascript source
+                                                        </li>
+                                                        <li>
+                                                            <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> scss</strong> - source for theme
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> docs</strong> - Documentation
+                                                </li>
+
+
+                                                <li>
+                                                    <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> pages</strong> - HTML pages
+                                                </li>
+                                                <li>
+                                                    <strong><i class="fe fe-folder font-16 me-1 align-middle"></i> partials</strong> - HTML partials
+                                                </li>
+                                                <li>
+                                                    <strong><i class="fe fe-file-text font-16 me-1 align-middle"></i> index.html </strong>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </li>
+
+
+
+                                        <li>
+                                            <strong><i class="fe fe-file-text font-16 me-1 align-middle"></i>gulpfile.js</strong> - All the build commands
+                                        </li>
+                                        <li>
+                                            <strong><i class="fe fe-file-text font-16 me-1 align-middle"></i>package.json</strong> - List of dependencies and npm information
+                                        </li>
+                                        <li>
+                                            <strong><i class="fe fe-file-text font-16 me-1 align-middle"></i> .gitignore </strong> - Hide all unnecessary files from Git
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    @@include("../partials/doc-footer.html")
+    <!-- ============================================================== -->
+    <!-- end footer -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    @@include("../partials/scripts.html")
+    <script src="@@webRoot/node_modules/prismjs/prism.js"></script>
+<script src="@@webRoot/node_modules/prismjs/components/prism-scss.min.js"></script>
+<script src="@@webRoot/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="@@webRoot/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+</html>

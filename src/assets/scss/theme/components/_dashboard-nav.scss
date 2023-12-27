@@ -1,0 +1,49 @@
+// dashboard nav
+.dashboard-nav {
+    padding: 0rem;
+    border-radius: 0.3rem;
+    background-color: var(--#{$prefix}white);
+    border: 1px solid var(--#{$prefix}gray-200);
+    @media (max-width: 576px) {
+        padding: 1rem 1.5rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        border-radius: 0rem 0rem 0.3rem 0.3rem;
+        border-top: 1px solid var(--#{$prefix}gray-200);
+        padding: 1rem 1.5rem;
+    }
+    .navbar-nav {
+        .heading {
+            text-transform: uppercase;
+            color: var(--#{$prefix}gray-900);
+            letter-spacing: 3px;
+            font-weight: 800;
+            font-size: 13px;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+        .nav-item {
+            margin-bottom: 2px;
+            &.active {
+                color: var(--#{$prefix}primary) !important;
+            }
+            .nav-link {
+                font-size: 16px;
+                padding: 0.3rem 0rem !important;
+                font-weight: 500;
+                color: var(--#{$prefix}gray-600) !important;
+                position: relative;
+                i {
+                    position: relative;
+                    top: 1px;
+                }
+                &:hover {
+                    color: var(--#{$prefix}primary);
+                }
+            }
+        }
+        .active > .nav-link {
+            color: var(--#{$prefix}primary) !important;
+        }
+    }
+}

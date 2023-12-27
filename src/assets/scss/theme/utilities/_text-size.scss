@@ -1,0 +1,41 @@
+//  fonts
+$font-size: font !default;
+@for $i from 12 through 48 {
+    .#{$font-size}-#{$i} {
+        font-size: 0px + $i;
+    }
+}
+
+.font-dm-serif {
+    font-family: $font-family-dm-serif;
+}
+
+.text-inherit {
+    color: inherit;
+    &:hover{
+        color: $primary !important;
+    }
+}
+.text-reset {
+    &:hover{
+        color: $primary !important;
+    }
+}
+
+.text-bottom-line {
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: "";
+        background-image: url(../images/yoga/line-shape.svg);
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        height: 4px;
+
+        background-repeat: no-repeat;
+        width: 191px;
+        margin: 0 auto;
+    }
+}

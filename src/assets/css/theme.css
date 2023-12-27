@@ -42264,9 +42264,13 @@ div.im-colormask > div {
 }
 
 .body-index .navbar {
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s ease;
 }
 
 .body-index.navbar-scrolled .navbar {
   background-color: #261F44;
+}
+
+#contact-form {
+  margin-top: 60px;
 }

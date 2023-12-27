@@ -42245,9 +42245,6 @@ div.im-colormask > div {
   color: #ff5938;
 }
 
-.navbar-echipa {
-  background-color: #261F44;
-}
 
 #footer-container {
   width: 100%;
@@ -42256,4 +42253,20 @@ div.im-colormask > div {
 #button-general {
   background-color: #ff5938;
   border: none;
+}
+
+.body-echipa .navbar {
+  background-color: #261F44;
+}
+
+.body-contact .navbar {
+  background-color: #261F44;
+}
+
+.body-index .navbar {
+  transition: background-color 0.3s ease;
+}
+
+.body-index.navbar-scrolled .navbar {
+  background-color: #261F44;
 }

@@ -42274,3 +42274,11 @@ div.im-colormask > div {
 #contact-form {
   margin-top: 60px;
 }
+
+@media (max-width: 768px) {
+  /* Text color for mobile screens */
+  .custom-menu .nav-link {
+    color: #261F44;
+    margin-left: 10px;
+  }
+}

@@ -42286,15 +42286,12 @@ div#logo-certificari {
 }
 #abh-link-2 {
   color: black;
-  margin-left: 25%;
 }
 #abh-link-3 {
   color: black;
-  margin-left: 25%;
 }
 #abh-link-4 {
   color: black;
-  margin-left: 25%;
 }
 
 #cristi-foto {
@@ -42303,6 +42300,25 @@ div#logo-certificari {
 
 #ana-foto {
   max-width: 80%;
+}
+
+.logo-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.custom-image {
+  width: 150px;
+  height: 150px;
 }
 
 @media (max-width: 768px) {

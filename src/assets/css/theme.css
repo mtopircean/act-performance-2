@@ -42275,6 +42275,28 @@ div.im-colormask > div {
   margin-top: 60px;
 }
 
+div#logo-certificari {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#abh-link-1 {
+  color: black;
+}
+#abh-link-2 {
+  color: black;
+  margin-left: 25%;
+}
+#abh-link-3 {
+  color: black;
+  margin-left: 25%;
+}
+#abh-link-4 {
+  color: black;
+  margin-left: 25%;
+}
+
 @media (max-width: 768px) {
   /* Text color for mobile screens */
   .custom-menu .nav-link {

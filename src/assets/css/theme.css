@@ -42297,6 +42297,14 @@ div#logo-certificari {
   margin-left: 25%;
 }
 
+#cristi-foto {
+  max-width: 80%;
+}
+
+#ana-foto {
+  max-width: 80%;
+}
+
 @media (max-width: 768px) {
   /* Text color for mobile screens */
   .custom-menu .nav-link {
